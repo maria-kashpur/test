@@ -5,10 +5,14 @@ body {
 .container {
    display: flex;
    justify-content: space-between;
+   align-items: center;
 }
 .container__item {
    width: 200px;
    height: 200px;
    background-color: white;
    border: 3px solid blue;
+   border-radius: 50px 50px;
+   place-content: center;
+   text-align: center;
 }
