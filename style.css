@@ -1,3 +1,4 @@
-* {
-   width: 100%;
+body {
+   background-color: aqua;
+   max-width: 1200px;
 }
