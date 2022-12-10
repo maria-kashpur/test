@@ -2,3 +2,12 @@ body {
    background-color: aqua;
    max-width: 1200px;
 }
+.container {
+   display: flex;
+   justify-content: space-between;
+}
+.container__item {
+   width: 200px;
+   height: 200px;
+   background-color: white;
+}
